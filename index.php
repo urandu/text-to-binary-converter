@@ -8,71 +8,7 @@ this code is for free and you are free to modify it and play around with it.you 
 <html>
 	<head>
 		<style>
-			#left 
-				{
-				float:left; width:45%;
-				min-width: 300px;
-				padding:10px;
-				margin:auto;
-				}
-			#right
-				{
-				float:right; width:45%;
-				min-width: 300px;
-				padding:10px;
-				margin:auto;
-				}
-			#site_title 
-				{ 
-					text-decoration: none;
-					color: white;
-				}
-			body
-				{
-					min-width:900px;
-					margin:0px;
-				}
-			footer 
-				{
-					   position:absolute;
-					   bottom:0;
-					   width:100%;
-					   height:60px;   /* Height of the footer */
-					   background:#09C;
-				}
-			header 
-				{
-					width: 100%;
-					height: 100px;
-					font-size: 25px;
-					font-family: sans-serif;
-					text-align:center;
-					background-color: #09C;
-					color: white;
-				}
-			ul#list-nav {
-			  list-style:none;
-			  margin:20px;
-			  padding:0;
-			  width:525px
-			}
-			ul#list-nav li {
-			  display:inline
-			}
-			ul#list-nav li a {
-			  text-decoration:none;
-			  padding:5px 0;
-			  width:100px;
-			  background:#09C;
-			  color:#eee;
-			  float:left;
-			  text-align:center;
-			  border-left:1px solid #fff;
-			}
-			ul#list-nav li a:hover {
-			  background:#a2b3a1;
-			  color:#000
-			}
+
 		</style>
 	</head>
 	<body>
