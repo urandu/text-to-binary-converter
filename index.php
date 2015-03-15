@@ -31,7 +31,6 @@ this code is for free and you are free to modify it and play around with it.you 
 				{
 					min-width:900px;
 					margin:0px;
-					
 				}
 			footer 
 				{
@@ -40,9 +39,7 @@ this code is for free and you are free to modify it and play around with it.you 
 					   width:100%;
 					   height:60px;   /* Height of the footer */
 					   background:#09C;
-					
 				}
-
 			header 
 				{
 					width: 100%;
@@ -53,19 +50,15 @@ this code is for free and you are free to modify it and play around with it.you 
 					background-color: #09C;
 					color: white;
 				}
-
-				
 			ul#list-nav {
 			  list-style:none;
 			  margin:20px;
 			  padding:0;
 			  width:525px
 			}
-
 			ul#list-nav li {
 			  display:inline
 			}
-
 			ul#list-nav li a {
 			  text-decoration:none;
 			  padding:5px 0;
@@ -76,7 +69,6 @@ this code is for free and you are free to modify it and play around with it.you 
 			  text-align:center;
 			  border-left:1px solid #fff;
 			}
-
 			ul#list-nav li a:hover {
 			  background:#a2b3a1;
 			  color:#000
@@ -84,18 +76,15 @@ this code is for free and you are free to modify it and play around with it.you 
 		</style>
 	</head>
 	<body>
-		
 		<header>
 			<h1><a id='site_title' href='index.php'>Binary converter!</a></h1>
 		</header>
 		<ul id="list-nav">
 	 		  <li><a href="http://urandu.foundit.co.ke">Urandu.com</a></li>
 			  <li><a href="http://foundit.co.ke">Foundit</a></li>
-			 
 		</ul></br></br>
 		This is a simple tool that converts a text string to its binary equivalent and vice versa...
 		<strong>Nb*</strong> this tool is just for fun.
-     
 		<div id="right">
 			<form method="post" action="trevnoc.php" >
 				<h3><label for="textstring">convert from binary to text string</label></h3></br>
@@ -104,7 +93,6 @@ this code is for free and you are free to modify it and play around with it.you 
 				ensure that the input is a stream of 0`s and 1`s divided into 8 or 7 bits seperated by spaces
 			</form>
 		</div>
-
 		<div id="left">
 			<form method="post" action="convert.php" >
 				<h3><label  max="1000" for="textstring">convert to binary from text string</label></h3></br>
@@ -114,9 +102,7 @@ this code is for free and you are free to modify it and play around with it.you 
 				Enter your string here
 			</form>
 		</div>
-		
 	</body>
 	<footer>
-	
 	</footer>
 <html/>
