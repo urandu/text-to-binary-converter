@@ -8,6 +8,54 @@ this code is for free and you are free to modify it and play around with it.you 
 <html>
 	<head>
 		<style>
+			#left
+				{
+				float:left; width:45%;
+				min-width: 300px;
+				padding:10px;
+				margin:auto;
+				}
+			#right
+				{
+				float:right; width:45%;
+				min-width: 300px;
+				padding:10px;
+				margin:auto;
+				}
+			#site_title
+				{
+					text-decoration: none;
+					color: white;
+				}
+			body
+				{
+					min-width:900px;
+					margin:0px;
+				}
+			footer
+				{
+					   position:absolute;
+					   bottom:0;
+					   width:100%;
+					   height:60px;   /* Height of the footer */
+					   background:#09C;
+				}
+			header
+				{
+					width: 100%;
+					height: 100px;
+					font-size: 25px;
+					font-family: sans-serif;
+					text-align:center;
+					background-color: #09C;
+					color: white;
+				}
+			ul#list-nav {
+			  list-style:none;
+			  margin:20px;
+			  padding:0;
+			  width:525px
+			}
 
 		</style>
 	</head>
